@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2772A51319493C1100E56C64 /* TitleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2772A51219493C1100E56C64 /* TitleScreen.swift */; };
 		2794EF6B1949323D00AAD0B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794EF6A1949323D00AAD0B2 /* AppDelegate.swift */; };
-		2794EF6D1949323D00AAD0B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794EF6C1949323D00AAD0B2 /* ViewController.swift */; };
+		2794EF6D1949323D00AAD0B2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794EF6C1949323D00AAD0B2 /* MainViewController.swift */; };
 		2794EF701949323D00AAD0B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2794EF6E1949323D00AAD0B2 /* Main.storyboard */; };
 		2794EF721949323D00AAD0B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2794EF711949323D00AAD0B2 /* Images.xcassets */; };
 		2794EF7E1949323D00AAD0B2 /* SeasonalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794EF7D1949323D00AAD0B2 /* SeasonalTests.swift */; };
@@ -25,10 +26,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2772A51219493C1100E56C64 /* TitleScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScreen.swift; sourceTree = "<group>"; };
 		2794EF651949323D00AAD0B2 /* Seasonal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seasonal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2794EF691949323D00AAD0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2794EF6A1949323D00AAD0B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2794EF6C1949323D00AAD0B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2794EF6C1949323D00AAD0B2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2794EF6F1949323D00AAD0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2794EF711949323D00AAD0B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2794EF771949323D00AAD0B2 /* SeasonalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeasonalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,10 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				2794EF6A1949323D00AAD0B2 /* AppDelegate.swift */,
-				2794EF6C1949323D00AAD0B2 /* ViewController.swift */,
+				2794EF6C1949323D00AAD0B2 /* MainViewController.swift */,
 				2794EF6E1949323D00AAD0B2 /* Main.storyboard */,
 				2794EF711949323D00AAD0B2 /* Images.xcassets */,
 				2794EF681949323D00AAD0B2 /* Supporting Files */,
+				2772A51219493C1100E56C64 /* TitleScreen.swift */,
 			);
 			path = Seasonal;
 			sourceTree = "<group>";
@@ -208,8 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2794EF6D1949323D00AAD0B2 /* ViewController.swift in Sources */,
+				2794EF6D1949323D00AAD0B2 /* MainViewController.swift in Sources */,
 				2794EF6B1949323D00AAD0B2 /* AppDelegate.swift in Sources */,
+				2772A51319493C1100E56C64 /* TitleScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +403,7 @@
 				2794EF831949323D00AAD0B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2794EF841949323D00AAD0B2 /* Build configuration list for PBXNativeTarget "SeasonalTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +412,7 @@
 				2794EF861949323D00AAD0B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
