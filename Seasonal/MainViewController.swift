@@ -16,6 +16,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         
         vwTitlescreen = TitleScreen(frame: self.view.frame)
+        vwTitlescreen.autoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleHeight
         
         self.view.addSubview(vwTitlescreen)
     }
