@@ -1,4 +1,4 @@
 Seasonal2
 =========
 
-Seasonal TV app - Now 100% more swift!
+Seasonal TV project - Now 100% more swift!
